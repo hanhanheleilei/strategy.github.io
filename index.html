@@ -89,41 +89,22 @@
       
     
       
-<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
-<video id="video-id"><source src="video.mp4" type="video/mp4" />
+
+<!-- 播放区域，通过调整样式设置合适的大小和位置 -->
+<div id="video_div" style="width: 640px;height: 360px">
+
+<script src="uplayer.min.js"></script>
 <script>
-    var myFP = fluidPlayer(
-        'video-id',	{
-	"layoutControls": {
-		"controlBar": {
-			"autoHideTimeout": 3,
-			"animated": true,
-			"autoHide": true
-		},
-		"htmlOnPauseBlock": {
-			"html": null,
-			"height": null,
-			"width": null
-		},
-		"primaryColor": "#ffffff",
-		"autoPlay": true,
-		"mute": true,
-		"allowTheatre": true,
-		"playPauseAnimation": true,
-		"playbackRateEnabled": false,
-		"allowDownload": false,
-		"playButtonShowing": false,
-		"fillToContainer": true,
-		"posterImage": "your-real-file-here.png"
-	},
-	"vastOptions": {
-		"adList": [],
-		"adCTAText": false,
-		"adCTATextPosition": ""
-	}
-});
+  	/**
+	* 播放函数说明:
+	* @param {string} url   视频地址，支持hls,mp4,rtmp,http-flv协议. 
+	* @param {string} divId 视频播放窗口的div的id 
+	* @param {string} format 视频流格式，可以是： flv, hls, rtmp, mp4等 
+	*/
+  	play("http://huanyoyo.cn/video.mp4","video_div","hls");
 </script>
-    
+
+        
       
     
       
