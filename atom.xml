@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huanyoyo.cn</id>
-    <title>我不会攻略站</title>
-    <updated>2022-07-14T17:28:51.492Z</updated>
+    <title>何必是个憨憨</title>
+    <updated>2022-07-23T14:49:41.676Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huanyoyo.cn"/>
     <link rel="self" href="https://huanyoyo.cn/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
     <logo>https://huanyoyo.cn/images/avatar.png</logo>
     <icon>https://huanyoyo.cn/favicon.ico</icon>
-    <rights>All rights reserved 2022, 我不会攻略站</rights>
+    <rights>All rights reserved 2022, 何必是个憨憨</rights>
     <entry>
         <title type="html"><![CDATA[测试攻略帖]]></title>
         <id>https://huanyoyo.cn/ce-shi-gong-lue-tie/</id>
